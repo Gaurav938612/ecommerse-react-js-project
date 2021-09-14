@@ -1,0 +1,23 @@
+.container {
+  //   border: 1px solid black;
+  width: 100%;
+  margin-left: 1rem;
+  text-transform: capitalize;
+}
+.addressesForm {
+  margin-left: 2rem;
+}
+.newAddressButton {
+  width: max-content;
+  color: green;
+  margin-left: 4rem;
+  cursor: pointer;
+}
+.address {
+  margin: 1rem;
+  //   padding-left: 2rem;
+}
+.selectButton {
+  padding-left: 3rem;
+  padding-bottom: 1rem;
+}

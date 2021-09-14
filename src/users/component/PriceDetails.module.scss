@@ -1,0 +1,20 @@
+.container {
+  margin-left: 1rem;
+  // position: fixed;
+  width: 23rem;
+}
+.content {
+  padding: 1rem;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  //   padding-left: 1rem;
+  padding-right: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.free {
+  color: green;
+}

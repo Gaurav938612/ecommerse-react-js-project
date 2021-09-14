@@ -1,0 +1,20 @@
+.button {
+  cursor: pointer;
+  font: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-weight: bold;
+  border: none;
+  background-color: grey;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  padding-left: 1rem;
+}
+.badge {
+  background-color: #b94517;
+  padding: 0.1rem 0.6rem;
+  border-radius: 1rem;
+  margin-left: 0.5rem;
+  margin-right: 1rem;
+}

@@ -1,0 +1,61 @@
+.container {
+  border: none;
+  border-radius: 1rem;
+  padding: 1rem;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 4rem;
+  text-transform: capitalize;
+}
+.textarea {
+  margin-top: 8rem;
+  width: 30rem;
+  border: none;
+}
+.textarea2 {
+  margin-top: 1rem;
+  width: 30rem;
+  border: none;
+}
+
+.inputField {
+  margin-top: 1rem;
+  width: 25rem;
+}
+.dropdown {
+  margin-top: 3rem;
+  width: 20rem;
+}
+.button {
+  width: 12rem;
+  // margin-top: 3rem;
+  position: absolute;
+  bottom: 2rem;
+  right: 8rem;
+  float: bottom;
+  // margin-left: 13rem;
+  display: flex;
+  justify-content: space-between;
+}
+.image {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+// img {
+//   height: 10rem;
+//   width: auto;
+// }
+.imageBox img {
+  width: 10rem;
+  height: auto;
+}
+.imageCard {
+  width: fit-content;
+  padding: 1rem;
+  display: flex;
+}
+.categoryName {
+  text-transform: capitalize;
+}

@@ -1,0 +1,47 @@
+.container {
+  width: 90%;
+  margin: 0rem auto;
+  text-transform: capitalize;
+  max-height: 28rem;
+  min-height: 28rem;
+}
+
+.addButtonContainer {
+  width: 95%;
+  height: 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+.searchContainer {
+  display: flex;
+  align-items: center;
+  background-color: #e7eaea;
+  border-radius: 0.5rem;
+  border: 0.1px solid gray;
+  padding-left: 0.3rem;
+  overflow: hidden;
+  height: 2.3rem;
+}
+.searchInput {
+  height: 2rem;
+}
+.searchInput:focus {
+  background-color: white;
+  padding-left: 1rem;
+  margin-left: 0.3rem;
+}
+.tabs {
+  margin-left: 62px;
+  display: flex;
+  align-items: center;
+  // border: 1px solid #e7e3e3;
+  min-height: 2.5rem;
+  max-height: 2.5rem;
+  border-radius: 5px;
+  align-self: self-end;
+}
+.tab {
+  border: 1px solid #e7e3e3;
+  min-width: 7rem;
+  min-height: 2.5rem;
+}

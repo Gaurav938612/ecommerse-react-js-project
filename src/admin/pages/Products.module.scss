@@ -1,0 +1,33 @@
+.container {
+  width: 80%;
+  margin: 2rem auto;
+  text-transform: capitalize;
+}
+
+.actionButton {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+.addNewButtonContainer {
+  width: 90%;
+  display: flex;
+  justify-content: flex-end;
+}
+.searchContainer {
+  display: flex;
+  align-items: center;
+  background-color: #e7eaea;
+  border-radius: 0.5rem;
+  margin-right: 2rem;
+  border: 0.1px solid blue;
+  padding-left: 0.3rem;
+  overflow: hidden;
+}
+
+.searchInput:focus {
+  background-color: white;
+  padding-left: 1rem;
+  margin-left: 0.3rem;
+}

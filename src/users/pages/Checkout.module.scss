@@ -1,0 +1,46 @@
+.container {
+  // margin-top: 6rem;
+  margin-left: 1rem;
+}
+.heading {
+  margin-left: 1rem;
+  padding-right: 2rem;
+}
+.placeOrderButton {
+  width: max-content;
+  margin: 2rem auto;
+  padding-bottom: 2rem;
+}
+.loginCheckout {
+  padding-left: 1rem;
+  display: flex;
+  align-items: center;
+}
+.addressesForm {
+  margin-left: 4rem;
+}
+.newAddressButton {
+  width: max-content;
+  color: green;
+  margin-left: 4rem;
+  cursor: pointer;
+}
+.orderSummary {
+  padding-left: 2rem;
+  display: flex;
+  align-items: center;
+}
+.paymentInitiatorButton {
+  width: 50%;
+  margin: 1rem 50%;
+  padding-bottom: 4rem;
+}
+.successMsg {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 2rem;
+}
+.payment {
+  width: 60%;
+}

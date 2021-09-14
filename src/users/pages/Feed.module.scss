@@ -1,0 +1,57 @@
+.container {
+  margin: 0rem auto;
+  margin-left: 3rem;
+}
+.card {
+  margin-top: 1rem;
+  margin-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  width: max-content;
+  // z-index: -12;
+}
+.description {
+  max-width: 15rem;
+  font-size: 0.8rem;
+}
+.title{
+  text-transform: capitalize;
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: .5rem;
+  margin-top: .5rem;
+}
+.imageBox {
+  width: 12rem;
+  height: 14rem;
+  overflow: hidden; 
+  text-align: center;
+}
+.imageBox img {
+  // width: 100%;
+  max-width: 11rem;
+  min-height: 12rem;
+  max-height: 12rem;
+}
+.addButtonContainer {
+  width: 95%;
+  display: flex;
+  justify-content: flex-end;
+}
+.searchContainer {
+  display: flex;
+  align-items: center;
+  background-color: #e7eaea;
+  border-radius: 0.5rem;
+  border: 0.1px solid gray;
+  padding-left: 0.3rem;
+  margin-right: 2rem;
+  overflow: hidden;
+}
+.searchInput:focus {
+  background-color: white;
+  padding-left: 1rem;
+  margin-left: 0.3rem;
+}

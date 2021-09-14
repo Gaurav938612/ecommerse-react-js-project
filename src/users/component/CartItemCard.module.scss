@@ -1,0 +1,58 @@
+// $image_dim: 8rem;
+
+.container {
+  padding: 1rem;
+}
+
+.container img {
+  width: auto;
+  height: 8rem;
+  max-width: 8rem;
+  max-height: 8rem;
+  min-height: 8rem;
+}
+.upperPart {
+  display: flex;
+}
+.imageBox {
+  width: 8rem;
+  text-align: center;
+}
+.lowerPart {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  padding-bottom: 1rem;
+}
+.lowerPart span {
+  margin-left: 1rem;
+}
+.rightUpper {
+  display: flex;
+  flex-direction: column;
+  padding-left: 1rem;
+  justify-content: flex-start;
+}
+.title {
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.price {
+  margin-top: 2rem;
+  font-weight: bold;
+}
+.description {
+  font-size: 0.9rem;
+  color: gray;
+}
+.quantity {
+  border: 0.5px solid gray;
+  padding: 0.2rem 0.8rem 0.2rem 0.8rem;
+  border-radius: 0.3rem;
+}
+.button {
+  margin-left: 2rem;
+}
+.icon {
+  cursor: pointer;
+}

@@ -1,0 +1,52 @@
+.container {
+  margin-top: 5rem;
+  margin-left: 3rem;
+}
+
+.heading {
+  padding-top: 2rem;
+
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.container_card {
+  margin-top: 2rem;
+}
+.menu li {
+  padding: 0.2rem;
+  padding-left: 1rem;
+  cursor: pointer;
+  font-weight: bold;
+  list-style: none;
+}
+.menu li:hover {
+  background-color: rgb(192, 191, 191);
+}
+.accountInfoCard {
+  //   padding-top: 3rem;
+  margin-left: 1rem;
+}
+.accountInfo {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.content {
+  padding: 0.2rem;
+}
+.orderContainer {
+  width: 45rem;
+  margin: 1rem;
+  margin-left: 4rem;
+}
+.orderHeading {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.arrowIcon {
+  cursor: pointer;
+}
+.orderDetails {
+  margin-top: 2rem;
+}
